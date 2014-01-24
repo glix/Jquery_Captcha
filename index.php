@@ -44,6 +44,7 @@ session_start();
 </script>		 
 </head>
 <body>
+<|Kscr:
 <form action="http://www.google.co.in" name="MYFORM" id="MYFORM">
 		<img src="captcha_files/get_captcha.php" alt="" id="captcha" />
 		<input name="code" type="text" id="code">
