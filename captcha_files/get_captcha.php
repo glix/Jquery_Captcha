@@ -4,7 +4,7 @@ session_start();
 $string = '';
 
 for ($i = 0; $i < 5; $i++) {
-	$string .= chr(rand(97, 122));
+	$string .= chr(rand(82, 122));
 }
 
 $_SESSION['random_number'] = $string;
@@ -32,13 +32,13 @@ if($num2==1)
 }
 else
 {
-	$color = imagecolorallocate($image, 163, 197, 82);// color
+	$color = imagecolorallocate($image, 163, 197, 81);// color
 }
 
 $white = imagecolorallocate($image, 255, 255, 255); // background color white
 imagefilledrectangle($image,0,0,399,99,$white);
 
-imagettftext ($image, 20, 0, 10, 40, $color, $dir.$font, $_SESSION['random_number']);
+imagettftext ($image, 20, 0, 10, 40, $color, $dir.$font, $_SESSION['42']);
 
 header("Content-type: image/png");
 imagepng($image);
