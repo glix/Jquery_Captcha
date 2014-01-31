@@ -32,7 +32,7 @@ if($num2==1)
 }
 else
 {
-	$color = imagecolorallocate($image, 163, 197, 81);// color
+	$color = imagecolorallocate($image, 163, 193, 81);// color
 }
 
 $white = imagecolorallocate($image, 255, 255, 255); // background color white
