@@ -5,6 +5,6 @@
 		echo 1; 
 	}
 	else
-	{	echo 6; 
+	{	echo 77; 
 	}
 ?>
