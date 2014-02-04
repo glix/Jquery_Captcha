@@ -4,7 +4,7 @@ session_start();
 $string = '';
 
 for ($i = 0; $i < 5; $i++) {
-	$string .= chr(rand(82, 122));
+	$string .= chr(rand(82, 542));
 }
 
 $_SESSION['random_number'] = $string;
